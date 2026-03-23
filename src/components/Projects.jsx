@@ -4,25 +4,33 @@ function Projects() {
       id: 1,
       name: "Task Management",
       description:
-        "A short, punchy description of what this does and the problem it solves. Keep it to two sentences max.",
-      tags: ["React", "JavaScipt"],
-      links: ["live.demo.com", "github.com"],
+        "A simple task management app built with React and Tailwind CSS. It allows users to create, edit and delete tasks, as well as mark them as completed. The App uses an API to persist data from other users/collegues. ",
+      tags: ["React", "API", "Tailwind CSS", "React Router"],
+      links: ["https://todo-app-pink-two-35.vercel.app/", "https://github.com/tamara-tgod/todo-app"],
     },
     {
       id: 2,
       name: "Blog Site",
       description:
-        "A short, punchy description of what this does and the problem it solves. Keep it to two sentences max.",
-      tags: ["HTML", "JavaScipt"],
-      links: ["live.demo.com", "github.com"],
+        "A personal blog site built with React, React Router and plain CSS. It features a clean spa design, responsive layout and error boundary handling and error pages for inexistent routes.",
+      tags: ["React", "React Router", "CSS"],
+      links: ["https://blog-app-bice-delta-28.vercel.app/", "https://github.com/tamara-tgod/blog-app"],
     },
+    // {
+    //   id: 3,
+    //   name: "Link Shortener",
+    //   description:
+    //     "A short, punchy description of what this does and the problem it solves. Keep it to two sentences max.",
+    //   tags: ["React", "CSS", "APIs"],
+    //   links: ["live.demo.com", "https://github.com/tamara-tgod/scissors-landing-page"],
+    // },
     {
       id: 3,
-      name: "Link Shortener",
+      name: "Portfolio Website",
       description:
-        "A short, punchy description of what this does and the problem it solves. Keep it to two sentences max.",
-      tags: ["React", "APIs"],
-      links: ["live.demo.com", "github.com"],
+        "My personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills. It features a clean design, responsive layout and smooth animations.",
+      tags: ["React", "Tailwind CSS"],
+      links: ["live.demo.com", "https://github.com/tamara-tgod/Portfolio_V2"],
     },
   ];
 
@@ -60,14 +68,17 @@ function Projects() {
   ];
 
   return (
-    <div id="projects" className="bg-slate-50 py-5 px-12 flex flex-col font-cabin">
+    <div
+      id="projects"
+      className="bg-cream py-5 px-12 flex flex-col font-cabin"
+    >
       <div
         id="projects-header"
         className="flex py-4 justify-between align-middle"
       >
         <div>
           <p className="font-sketch text-red-400 ">things I've built</p>
-          <h2 className="font-fraunces text-2xl">
+          <h2 className="font-fraunces text-2xl md:text-4xl">
             Selected Projects <span>✦</span>
           </h2>
         </div>
@@ -80,49 +91,52 @@ function Projects() {
         </a>
       </div>
 
-      <div id="project-cards" className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10">
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`py-4 px-4 rounded-3xl ${colors[index].hover}`}
+            className={`bg-white py-4 px-4 md:py-8 md:px-8 rounded-3xl ${colors[index].hover}`}
           >
-            <section className="flex justify-between items-center gap-4">
-              <div
-                id="project-num"
-                className={`${colors[index].base} ${colors[index].text} p-3 w-14 rounded-xl font-sketch `}
-              >
-                <span>{`0${project.id}`}</span>
-              </div>
+            <section className="flex flex-col justify-between gap-4  md:flex-row md:justify-between md:items-center py-4 px-4 mx-4">
 
-              <div id="project-desciption" className="flex flex-col gap-3">
-                <p className="text-xl font-semibold">{project.name}</p>
-                <p className="text-gray-600">{project.description}</p>
-                <div className="flex gap-3">
-                  {project.tags.map((tag, i) => (
-                    <span
-                      key={i}
-                      className="border border-gray-600 rounded-2xl px-2 text-xs"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+              <div className="flex justify-between items-center gap-6">
+                <span
+                  className={`${colors[index].base} ${colors[index].text} p-3 w-14 rounded-xl font-sketch project-num`}
+                >{`0${project.id}`}</span>
+
+                <div className="flex flex-col gap-3">
+                  <p className="text-xl font-semibold project-desciption">
+                    {project.name}
+                  </p>
+                  <p className="text-gray-600">{project.description}</p>
+                  <div className="flex gap-3">
+                    {project.tags.map((tag, i) => (
+                      <span
+                        key={i}
+                        className="bg-cream border border-slate-200 py-1 px-3 rounded-2xl text-xs"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
+
+              <div className="links flex md:flex-col gap-3 font-cabin ">
+                <a
+                  className="bg-dark-navy text-white border px-4 py-1 rounded-2xl "
+                  href={project.links[0]}
+                >
+                  Live↗
+                </a>
+                <a
+                  className="border px-4 py-1 rounded-2xl "
+                  href={project.links[1]}
+                >
+                  Github
+                </a>
+              </div>
             </section>
-            <div id="links" className="flex gap-3 pt-3 mt-6 font-cabin">
-              <a
-                className="bg-dark-navy text-white border px-4 py-1 rounded-2xl "
-                href={project.links[0]}
-              >
-                Live↗
-              </a>
-              <a
-                className="border px-4 py-1 rounded-2xl "
-                href={project.links[1]}
-              >
-                Github
-              </a>
-            </div>
           </div>
         ))}
       </div>

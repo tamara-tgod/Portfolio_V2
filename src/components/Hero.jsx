@@ -1,13 +1,13 @@
 function Hero() {
     return (
-        <section id="hero" className="bg-slate-100 pt-24 pb-6
+        <section id="hero" className="bg-cream pt-24 pb-6
          px-12 flex flex-col gap-6 font-cabin relative">
-            <div className="bg-slate-100 text-gray-400 border border-slate-200 rounded-full text-center w-1/2 shadow-md shadow-[3px_3px_0_#e8e0d4] flex justify-center items-center gap-1">
-            <span className="w-4 h-4 bg-green-500 border rounded-[50%] animate-greenPulse"></span>
+            <div className="bg-cream text-gray-400 border border-slate-200 rounded-full text-center w-1/2 shadow-md shadow-[3px_3px_0_#e8e0d4] flex justify-center items-center gap-1 md:w-1/4">
+            <span className="w-4 h-4 bg-green-500 border rounded-[50%] animate-greenPulse "></span>
             Available for opportunities</div>
-            <h1 className="font-fraunces text-5xl font-semibold"> Hi, I'm <em className="text-red-400">Tamara</em> -
+            <h1 className="font-fraunces text-5xl font-semibold leading-tight md:text-7xl md:leading-snug "> Hi, I'm <em className="text-red-400">Tamara</em> -
             <br />
-            I build <span className="underline decoration-wavy decoration-red-400">beautiful</span> 
+            I build <span className="underline underline-offset-8 decoration-wavy decoration-red-400">beautiful</span> 
             <br />
             things for the web.</h1>
             <p className="text-gray-500 font-medium text-lg max-w-lg">Frontend Engineer in training at AltSchool Africa. I turn ideas into interfaces that feel good to use, with React, clean code and a lot of curiosity.</p>

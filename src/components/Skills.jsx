@@ -54,7 +54,7 @@ function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className={`px-3 py-10 rounded-3xl text-sm border font-medium relative overflow-hidden flex flex-col gap-1 md:w-72 ${colors[index % colors.length]}`}
+            className={`px-3 py-10 rounded-3xl text-sm border font-medium relative overflow-hidden flex flex-col gap-1 ${colors[index % colors.length]}`}
           >
             <span className="text-2xl ">{skill.icon}</span>
             <h3 className="text-base font-cabin font-extrabold mt-2">

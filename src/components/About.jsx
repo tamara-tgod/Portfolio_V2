@@ -16,7 +16,7 @@ function About() {
   ];
 
   return (
-    <div className="bg-dark-navy px-12 py-5 text-gray-200 md:grid items-center grid-cols-2 gap-6">
+    <div id="about" className="bg-dark-navy px-12 py-5 text-gray-200 md:grid items-center grid-cols-2 gap-6">
       <div id="avatar-wrap" className="relative">
         <div
           id="avatar"
@@ -38,8 +38,8 @@ function About() {
         <span className="text-green-400 text-sm font-sketch">
           ~ a little about me ~
         </span>
-        <h2 className="text-3xl font-fraunces">
-          I'm a<em className="text-purple-600 font-fraunces"> curious </em>
+        <h2 className="text-3xl font-fraunces md:text-4xl lg:text-5xl">
+          I'm a<em className="text-purple-600 font-fraunces "> curious </em>
           <br />
           frontend engineer.
         </h2>
@@ -49,7 +49,7 @@ function About() {
           I'm learning something new and building something real.
         </p>
         <p className="my-2">
-          I care about the detals, the hover state that feels just right, the
+          I care about the details, the hover state that feels just right, the
           layout that works on every screen, the code that someone else can
           actually read. I show up consistently and let the work compound.
         </p>
