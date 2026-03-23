@@ -1,3 +1,4 @@
+import avatar from "../assets/images/avatar.jpeg";
 function About() {
   const chips = [
     "🔥consistency",
@@ -24,7 +25,7 @@ function About() {
         >
           <img
             className="w-full"
-            src="src/assets/images/avatar.jpeg"
+            src={avatar}
             alt="Tamara"
           />
         </div>
