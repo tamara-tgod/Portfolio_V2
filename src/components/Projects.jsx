@@ -30,7 +30,7 @@ function Projects() {
       description:
         "My personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills. It features a clean design, responsive layout and smooth animations.",
       tags: ["React", "Tailwind CSS"],
-      links: ["live.demo.com", "https://github.com/tamara-tgod/Portfolio_V2"],
+      links: ["https://tamara-portfolio-v2.vercel.app/", "https://github.com/tamara-tgod/Portfolio_V2"],
     },
   ];
 
