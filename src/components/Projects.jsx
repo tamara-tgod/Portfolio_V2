@@ -99,7 +99,7 @@ function Projects() {
           >
             <section className="flex flex-col justify-between gap-4  md:flex-row md:justify-between md:items-center py-4 px-4 mx-4 ">
 
-              <div className="flex justify-between items-center gap-6 min-w-0">
+              <div className="flex flex-col md:flex-row justify-between md:items-center gap-6 min-w-0 ">
                 <span
                   className={`${colors[index].base} ${colors[index].text} p-3 w-14 rounded-xl font-sketch project-num`}
                 >{`0${project.id}`}</span>
@@ -109,7 +109,7 @@ function Projects() {
                     {project.name}
                   </p>
                   <p className="text-gray-600">{project.description}</p>
-                  <div className="flex gap-3">
+                  <div className="flex flex-wrap gap-3">
                     {project.tags.map((tag, i) => (
                       <span
                         key={i}
@@ -124,13 +124,13 @@ function Projects() {
 
               <div className="links flex md:flex-col gap-3 font-cabin ">
                 <a
-                  className="bg-dark-navy text-white border px-4 py-1 rounded-2xl "
+                  className="bg-dark-navy text-white border px-4 py-2 rounded-2xl "
                   href={project.links[0]}
                 >
                   Live↗
                 </a>
                 <a
-                  className="border px-4 py-1 rounded-2xl "
+                  className="border px-4 py-2 rounded-2xl "
                   href={project.links[1]}
                 >
                   Github

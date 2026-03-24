@@ -22,6 +22,7 @@ export default {
         marquee: "marquee 20s linear infinite",
         morphBlob: "morphBlob 10s ease-in-out infinite",
         greenPulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+         float: "float 6s ease-in-out infinite",
       },
 
       keyframes: {
@@ -44,6 +45,11 @@ export default {
         greenPulse: {
           "0%, 100%": { transform: "scale(1)", opacity: "1" },
           "50%": { transform: "scale(1.4)", opacity: "0.6" },
+        },
+
+        float: {
+          "0%, 100%": {transform: "translateY(0px)"},
+          "50%": {transform: "translateY(-12px)"},
         },
       },
 
