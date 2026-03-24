@@ -91,20 +91,20 @@ function Projects() {
         </a>
       </div>
 
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 ">
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`bg-white py-4 px-4 md:py-8 md:px-8 rounded-3xl ${colors[index].hover}`}
+            className={`bg-white py-4 px-4 md:py-8 md:px-8 rounded-3xl  ${colors[index].hover}`}
           >
-            <section className="flex flex-col justify-between gap-4  md:flex-row md:justify-between md:items-center py-4 px-4 mx-4">
+            <section className="flex flex-col justify-between gap-4  md:flex-row md:justify-between md:items-center py-4 px-4 mx-4 ">
 
-              <div className="flex justify-between items-center gap-6">
+              <div className="flex justify-between items-center gap-6 min-w-0">
                 <span
                   className={`${colors[index].base} ${colors[index].text} p-3 w-14 rounded-xl font-sketch project-num`}
                 >{`0${project.id}`}</span>
 
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 min-w-0 overflow-hidden">
                   <p className="text-xl font-semibold project-desciption">
                     {project.name}
                   </p>

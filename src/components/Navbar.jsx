@@ -25,7 +25,8 @@ function Navbar() {
         };
     }, [])
     return (
-        <nav className={`bg-slate-100 fixed top-0 z-50 w-full flex flex-row-reverse justify-between items-center px-12 py-6 mb-4 ${isScrolled ? 'bg-stone-50 py-4 border-b-2 border-dashed backdrop-blur-xl' : 'bg-transparent'}`} >
+        <nav className={`bg-slate-100 fixed top-0 z-50 w-full flex justify-between items-center px-12 py-6 mb-4 ${isScrolled ? 'bg-stone-50 py-4 border-b-2 border-dashed backdrop-blur-xl' : 'bg-transparent'}`} >
+               <h1 className="font-sketch font-semibold text-3xl italic text-red-500 ">tamara <span>✦</span></h1>
             <button 
             onClick={toggleMenu}
             className="md:hidden">{isOpen ? "✕" : "☰"}</button>
@@ -38,12 +39,12 @@ function Navbar() {
 
             </ul>
             </div> }
-            <h1 className="font-sketch font-semibold text-3xl italic text-red-500 ">tamara <span>✦</span></h1>
+         
             <ul className="hidden md:flex gap-4">
-                <li><a href="#about">about</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#about" className="hover:text-red-400 transition-colors font-sketch">about</a></li>
+                <li><a href=" #skills" className="hover:text-red-400 transition-colors font-sketch">skills</a></li>
+                <li><a href="#projects" className="hover:text-red-400 transition-colors font-sketch">projects</a></li>
+                <li><a href="#contact" className="hover:text-red-400 transition-colors font-sketch">contact</a></li>
 
             </ul>
         </nav>
