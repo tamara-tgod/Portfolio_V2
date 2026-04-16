@@ -16,16 +16,16 @@ function Projects() {
       tags: ["React", "React Router", "CSS"],
       links: ["https://blog-app-bice-delta-28.vercel.app/", "https://github.com/tamara-tgod/blog-app"],
     },
-    // {
-    //   id: 3,
-    //   name: "Link Shortener",
-    //   description:
-    //     "A short, punchy description of what this does and the problem it solves. Keep it to two sentences max.",
-    //   tags: ["React", "CSS", "APIs"],
-    //   links: ["live.demo.com", "https://github.com/tamara-tgod/scissors-landing-page"],
-    // },
     {
       id: 3,
+      name: "Github Explorer",
+      description:
+        "Search any GitHub user by username and explore their profile, stats, and top repositories.",
+      tags: ["React","TypeScript", "API", "Tailwind CSS"],
+      links: ["https://github-explorer-ten-mocha.vercel.app", "https://github.com/Tamara-tgod/github-explorer.git"],
+    },
+    {
+      id: 4,
       name: "Portfolio Website",
       description:
         "My personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills. It features a clean design, responsive layout and smooth animations.",

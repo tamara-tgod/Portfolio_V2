@@ -7,6 +7,7 @@ function Marquee() {
         <span><span className="text-yellow-300">✦</span> HTML & CSS</span>
         <span><span className="text-yellow-300">✦</span> JavaScript</span>
         <span><span className="text-yellow-300">✦</span> React.js</span>
+        <span><span className="text-yellow-300">✦</span> TypeScript</span>
         <span><span className="text-yellow-300">✦</span> Tailwind CSS</span>
         <span><span className="text-yellow-300">✦</span> Git & Github</span>
         <span><span className="text-yellow-300">✦</span> Responsive Design</span>
@@ -16,6 +17,7 @@ function Marquee() {
         <span><span className="text-yellow-300">✦</span> HTML & CSS</span>
         <span><span className="text-yellow-300">✦</span> JavaScript</span>
         <span><span className="text-yellow-300">✦</span> React.js</span>
+        <span><span className="text-yellow-300">✦</span> TypeScript</span>
         <span><span className="text-yellow-300">✦</span> Tailwind CSS</span>
         <span><span className="text-yellow-300">✦</span> Git & Github</span>
         <span><span className="text-yellow-300">✦</span> Responsive Design</span>

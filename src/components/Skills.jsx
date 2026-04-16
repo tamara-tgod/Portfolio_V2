@@ -6,18 +6,23 @@ function Skills() {
       description: "animations & responsive design",
     },
     {
+      name: "JavaScript",
+      icon: "✨",
+      description: "ES6+, DOM, async/await",
+    },
+     {
       name: "React.js",
       icon: "⚛️",
       description: "Components, hooks & state",
     },
     {
-      name: "JavaScript",
-      icon: "✨",
-      description: "ES6+, DOM, async/await",
+      name: "TypeScript",
+      icon: "#️⃣",
+      description: "type-safe react applications",
     },
     {
       name: "Git & Github",
-      icon: "🌿",
+      icon: "🔗",
       description: "Version control & collaboration",
     },
     {
