@@ -10,7 +10,7 @@ function Hero() {
             I build <span className="underline underline-offset-8 decoration-wavy decoration-red-400">beautiful</span> 
             <br />
             things for the web.</h1>
-            <p className="text-gray-500 font-medium text-lg max-w-lg">Frontend Engineer in training at AltSchool Africa. I turn ideas into interfaces that feel good to use, with React, clean code and a lot of curiosity.</p>
+            <p className="text-gray-500 font-medium text-lg max-w-lg">Frontend Engineer, currently advancing my skills at AltSchool Africa. I turn ideas into interfaces that feel good to use, with React, clean code and a lot of curiosity.</p>
 
             <div className="flex flex-wrap items-center gap-4">
                 <a href="#projects" className="bg-dark-navy text-white text-sm shadow-[4px_4px_0_#ff6b6b] border border-gray-500 rounded-full px-6 
