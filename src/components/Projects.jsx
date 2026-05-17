@@ -17,7 +17,7 @@ function Projects() {
     //   links: ["https://blog-app-bice-delta-28.vercel.app/", "https://github.com/tamara-tgod/blog-app"],
     // },
     {
-      id: 3,
+      id: 2,
       name: "Github Explorer",
       description:
         "A search tool that lets you look up any GitHub user by username and instantly see their profile, activity stats, and top repositories — great for developers researching collaborators or open source projects.",
@@ -25,7 +25,7 @@ function Projects() {
       links: ["https://github-explorer-ten-mocha.vercel.app", "https://github.com/Tamara-tgod/github-explorer.git"],
     },
     {
-      id: 4,
+      id: 3,
       name: "Portfolio Website",
       description:
         "MA personal portfolio designed to showcase my projects and skills in a clean, responsive layout with smooth animations, built to work beautifully on any screen size.",
