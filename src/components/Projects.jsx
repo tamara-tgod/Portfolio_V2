@@ -14,7 +14,8 @@ function Projects() {
       description:
         "A full-stack civic health tool for locating Nigerian hospitals, featuring interactive maps, authentication, and an admin dashboard. Built as a capstone project for AltSchool Africa.",
       tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "MapboxGL.js"],
-      links: ["https://carefinder-lac.vercel.app/", "https://github.com/tamara-tgod/carefinder"],
+      links: ["https://carefinder-lac.vercel.app/", ]
+        // "https://github.com/tamara-tgod/carefinder",
     },
     {
       id: 3,
