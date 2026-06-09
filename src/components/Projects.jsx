@@ -2,22 +2,22 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      name: "Task Management",
+      name: "GainzDB",
       description:
-        "A collaborative task manager built for teams who need to stay on the same page. Team members can create, assign, edit and complete tasks in real time, making it easy to track who's handling what across the whole team.",
-      tags: ["React", "API", "Tailwind CSS", "React Router"],
-      links: ["https://todo-app-pink-two-35.vercel.app/", "https://github.com/tamara-tgod/todo-app"],
+        "A responsive exercise explorer app that lets users browse and save workouts by muscle group, built with custom hooks, optimistic UI patterns, and fault-tolerant data fetching.",
+      tags: ["React.js", "TypeScript", "Tailwind CSS", "ExerciseDB API"],
+      links: ["https://gainzdb.netlify.app/", "https://github.com/tamara-tgod/gainzdb"],
     },
-    // {
-    //   id: 2,
-    //   name: "Blog Site",
-    //   description:
-    //     "A clean, fast-loading personal blog where readers can browse posts, navigate seamlessly between pages, and always land on a helpful page, even if a link doesn't exist.",
-    //   tags: ["React", "React Router", "CSS"],
-    //   links: ["https://blog-app-bice-delta-28.vercel.app/", "https://github.com/tamara-tgod/blog-app"],
-    // },
     {
       id: 2,
+      name: "Carefinder",
+      description:
+        "A full-stack civic health tool for locating Nigerian hospitals, featuring interactive maps, authentication, and an admin dashboard. Built as a capstone project for AltSchool Africa.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "MapboxGL.js"],
+      links: ["https://carefinder-lac.vercel.app/", "https://github.com/tamara-tgod/carefinder"],
+    },
+    {
+      id: 3,
       name: "Github Explorer",
       description:
         "A search tool that lets you look up any GitHub user by username and instantly see their profile, activity stats, and top repositories — great for developers researching collaborators or open source projects.",
@@ -25,10 +25,10 @@ function Projects() {
       links: ["https://github-explorer-ten-mocha.vercel.app", "https://github.com/Tamara-tgod/github-explorer.git"],
     },
     {
-      id: 3,
+      id: 4,
       name: "Portfolio Website",
       description:
-        "MA personal portfolio designed to showcase my projects and skills in a clean, responsive layout with smooth animations, built to work beautifully on any screen size.",
+        "My personal portfolio designed to showcase my projects and skills in a clean, responsive layout with smooth animations, built to work beautifully on any screen size.",
       tags: ["React", "Tailwind CSS"],
       links: ["https://tamara-portfolio-v2.vercel.app/", "https://github.com/tamara-tgod/Portfolio_V2"],
     },

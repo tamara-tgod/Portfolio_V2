@@ -10,10 +10,15 @@ function Skills() {
       icon: "✨",
       description: "ES6+, DOM, async/await",
     },
-     {
+    {
       name: "React.js",
       icon: "⚛️",
       description: "Components, hooks & state",
+    },
+    {
+      name: "Next.js",
+      icon: "▲",
+      description: "App Router, SSR & full-stack",
     },
     {
       name: "TypeScript",
