@@ -2,6 +2,22 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      name: "Carefinder",
+      description:
+        "A full-stack civic health tool for locating Nigerian hospitals, featuring interactive maps, authentication, and an admin dashboard. Built as a capstone project for AltSchool Africa.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "MapboxGL.js"],
+      links: ["https://carefinder-lac.vercel.app/",  "https://github.com/tamara-tgod/carefinder"]
+    },
+    {
+      id: 2,
+      name: "JobTrackr",
+      description:
+        "A personal job application tracker with inline click-to-edit fields, optimistic UI updates, and a status pipeline enforced at the database level, built to stay organized during an active job search.",
+      tags: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
+      links: ["jobtrackr-peach.vercel.app",  "https://github.com/tamara-tgod/carefinder"]
+    },
+      {
+      id: 3,
       name: "GainzDB",
       description:
         "A responsive exercise explorer app that lets users browse and save workouts by muscle group, built with custom hooks, optimistic UI patterns, and fault-tolerant data fetching.",
@@ -9,16 +25,7 @@ function Projects() {
       links: ["https://gainzdb.netlify.app/", "https://github.com/tamara-tgod/gainzdb"],
     },
     {
-      id: 2,
-      name: "Carefinder",
-      description:
-        "A full-stack civic health tool for locating Nigerian hospitals, featuring interactive maps, authentication, and an admin dashboard. Built as a capstone project for AltSchool Africa.",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "MapboxGL.js"],
-      links: ["https://carefinder-lac.vercel.app/", ]
-        // "https://github.com/tamara-tgod/carefinder",
-    },
-    {
-      id: 3,
+      id: 4,
       name: "Github Explorer",
       description:
         "A search tool that lets you look up any GitHub user by username and instantly see their profile, activity stats, and top repositories — great for developers researching collaborators or open source projects.",
@@ -26,7 +33,7 @@ function Projects() {
       links: ["https://github-explorer-ten-mocha.vercel.app", "https://github.com/Tamara-tgod/github-explorer.git"],
     },
     {
-      id: 4,
+      id: 5,
       name: "Portfolio Website",
       description:
         "My personal portfolio designed to showcase my projects and skills in a clean, responsive layout with smooth animations, built to work beautifully on any screen size.",
