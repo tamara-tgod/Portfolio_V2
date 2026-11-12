@@ -2,7 +2,7 @@
 
 A personal portfolio website built to showcase my growth as a frontend engineer — featuring my projects, skills, and personality.
 
-🔗 **Live Site:** [https://tamara-portfolio-v2.vercel.app/](https://tamara-portfolio-v2.vercel.app/)
+🔗 **Live Site:** [https://tamara-v2.vercel.app/](https://tamara-v2.vercel.app/)
 
 ---
 
