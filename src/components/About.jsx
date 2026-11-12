@@ -29,10 +29,10 @@ function About() {
             alt="Tamara"
           />
         </div>
-        <div className="bg-yellow-300 absolute right-[10px] bottom-[10px] w-32 py-1 px-4 border-none rounded-lg font-sketch rotate-12">
+        {/* <div className="bg-yellow-300 absolute right-[10px] bottom-[10px] w-32 py-1 px-4 border-none rounded-lg font-sketch rotate-12">
             <span>🎓</span>
             AltSchool Africa
-        </div>
+        </div> */}
       </div>
 
       <div className="font-cabin text-gray-300">

@@ -27,7 +27,7 @@ function Contact() {
     {
       id: 5,
       name: "Resume",
-      link: "https://drive.google.com/file/d/1ewkixPsZE3HaG0s5kSaBrKVav7bdPZrz/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1k-q1ZDKLTaKkBJR_uut0jl5WNyxtWBeb/view?usp=drive_link",
       icon: "📄",
     },
   ];

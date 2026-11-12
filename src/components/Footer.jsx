@@ -4,7 +4,7 @@ function Footer () {
             <h1 className="font-sketch text-3xl italic text-red-500">tamara <span>✦</span></h1>
             <p className="text-xs">Frontend Engneer - Altschool Africa</p>
         
-            <p className="text-xs">&copy; Tamara 2026 - Built with curiosity & Caffeine</p>
+            <p className="text-xs">&copy; Tamara 2026</p>
 
         </div>
     )
