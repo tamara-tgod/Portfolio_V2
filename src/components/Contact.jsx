@@ -20,14 +20,14 @@ function Contact() {
     // },
     {
       id: 4,
-      name: "Twitter/X",
+      name: "Twitter",
       link: "https://x.com/Tamma_alt",
-      icon: "🐦",
+      icon: " 𝕏 "
     },
     {
       id: 5,
       name: "Resume",
-      link: "https://drive.google.com/file/d/1k-q1ZDKLTaKkBJR_uut0jl5WNyxtWBeb/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1q6AUzhdgMIozcfteQi-ZRGePBiM48Fvt/view?usp=sharing",
       icon: "📄",
     },
   ];
