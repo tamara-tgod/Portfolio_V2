@@ -147,7 +147,8 @@ function CVPage() {
             <a
               href={profile.resumePdf}
               download="Itemearau_Resume.pdf"
-              className="inline-block rounded-md bg-[#1a1a2e] shadow-[4px_4px_0_#ff6b6b] transition hover:translate-x-[2px] hover:translate-y-2[2px] px-4 py-2 text-sm font-medium text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
+              className="bg-dark-navy text-white text-sm shadow-[4px_4px_0_#ff6b6b] border border-gray-500 rounded-full px-6 
+                py-2 w-fit text-nowrap transition hover:translate-x-[2px] hover:translate-y-2[2px] hover:shadow-none"
             >
               Download PDF
             </a>
@@ -297,7 +298,7 @@ function CVPage() {
             ))}
           </ul>
         </Section>
-        
+
         <footer className="mt-16 flex flex-wrap justify-between gap-4 border-t border-neutral-200 pt-6 text-sm text-neutral-500 dark:border-neutral-800 dark:text-neutral-400 print:hidden">
           <p>
             © {new Date().getFullYear()} {profile.name}

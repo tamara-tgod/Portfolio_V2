@@ -45,14 +45,10 @@ function About() {
           frontend engineer.
         </h2>
         <p className="my-2">
-          I'm currently studying at AltSchool Africa, diving deep into frontend
-          development, from the fundamentals all the way to React.js. Every day
-          I'm learning something new and building something real.
+         I'm a frontend developer who enjoys turning ideas into functional, engaging web experiences. I like figuring out how things work, experimenting with new approaches, and building projects that solve actual problems.
         </p>
         <p className="my-2">
-          I care about the details, the hover state that feels just right, the
-          layout that works on every screen, the code that someone else can
-          actually read. I show up consistently and let the work compound.
+          I'm particular about the details, from a hover state that feels just right to a layout that works across screen sizes. I value clean, readable code and believe the best interfaces are not just good-looking but intuitive and enjoyable to use.
         </p>
 
         <div className="flex flex-wrap gap-2">
